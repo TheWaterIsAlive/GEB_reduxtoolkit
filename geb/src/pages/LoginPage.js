@@ -1,11 +1,17 @@
 import React from 'react';
+import Wrapper from "../components/Wrapper";
+import UserForm from "../components/UseForm";
+
 
 export default function LoginPage() {
+ 
+
     return (
-        <div />
-        // <Wrapper>
-        //   <FormattedMessage {...messages.header} />
-        // </Wrapper>
+      <div>
+      <Wrapper/>
+          <UserForm/>
+          </div>
+       
       );
 
 }
