@@ -1,0 +1,222 @@
+{
+  "contractName": "Transaction",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "testCount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"testCount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/User/GEB_reduxtoolkit/eth-contract/contracts/Transaction.sol\":\"Transaction\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/User/GEB_reduxtoolkit/eth-contract/contracts/Transaction.sol\":{\"keccak256\":\"0xd199b1b99f23ac4bfdd9f8c083e6ae6f389e71cf2ad5663a1a57978f83fedbb0\",\"urls\":[\"bzz-raw://9d4ed41e508cc36c12b9a4c68349199a7c02de0391eb981eccf8edc42f5ed111\",\"dweb:/ipfs/QmQcHuZAaqc8yoLefjXyZjEVTNT6PKTApwJLvYT1oCyJp2\"]}},\"version\":1}",
+  "bytecode": "0x608060405260008055348015601357600080fd5b506080806100226000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80639590d4b914602d575b600080fd5b60336045565b60408051918252519081900360200190f35b6000548156fea265627a7a7231582010329e7b031cd8906b0d87caf1ecc0c98af134e7cba1d8d40f85ccc4e361024764736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80639590d4b914602d575b600080fd5b60336045565b60408051918252519081900360200190f35b6000548156fea265627a7a7231582010329e7b031cd8906b0d87caf1ecc0c98af134e7cba1d8d40f85ccc4e361024764736f6c63430005100032",
+  "sourceMap": "36:57:1:-;;;84:1;60:25;;36:57;8:9:-1;5:2;;;30:1;27;20:12;5:2;36:57:1;;;;;;;",
+  "deployedSourceMap": "36:57:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;36:57:1;;;;;;;;;;;;;;;;;;;60:25;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity >=0.4.22 <0.8.0;\r\n\r\ncontract Transaction {\r\nuint public testCount = 0;\r\n\r\n\r\n}",
+  "sourcePath": "C:/Users/User/GEB_reduxtoolkit/eth-contract/contracts/Transaction.sol",
+  "ast": {
+    "absolutePath": "/C/Users/User/GEB_reduxtoolkit/eth-contract/contracts/Transaction.sol",
+    "exportedSymbols": {
+      "Transaction": [
+        38
+      ]
+    },
+    "id": 39,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 38,
+        "linearizedBaseContracts": [
+          38
+        ],
+        "name": "Transaction",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 37,
+            "name": "testCount",
+            "nodeType": "VariableDeclaration",
+            "scope": 38,
+            "src": "60:25:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "60:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "30",
+              "id": 36,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "84:1:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 39,
+        "src": "36:57:1"
+      }
+    ],
+    "src": "0:93:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/User/GEB_reduxtoolkit/eth-contract/contracts/Transaction.sol",
+    "exportedSymbols": {
+      "Transaction": [
+        38
+      ]
+    },
+    "id": 39,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 38,
+        "linearizedBaseContracts": [
+          38
+        ],
+        "name": "Transaction",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 37,
+            "name": "testCount",
+            "nodeType": "VariableDeclaration",
+            "scope": 38,
+            "src": "60:25:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "60:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "30",
+              "id": 36,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "84:1:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 39,
+        "src": "36:57:1"
+      }
+    ],
+    "src": "0:93:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x275d9c14b788BEbccB787e165525b6cebEA9A3DB",
+      "transactionHash": "0x06341f19a2ded0ff699c1f5888a3bf75a40246719f3cdaaf5f5c9effc5e2ce4d"
+    }
+  },
+  "schemaVersion": "3.3.2",
+  "updatedAt": "2020-11-08T00:35:36.592Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
